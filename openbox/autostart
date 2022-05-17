@@ -1,0 +1,13 @@
+mons --primary DP-0
+mons -o
+picom -b --config ~/.config/picom/picom.conf &
+polybar MyBar &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+opensnap -c /etc/opensnap -d &
+/usr/bin/dunst &
+clipster -d &
+~/.config/polybar/scripts/hidepolybar.sh &
+~/.fehbg &
+~/Scripts/fancurve1.sh &
+xcape -e 'Super_L=Alt_L|Super_L|D' &
+xinput --set-prop "Glorious Model D Wireless" "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2
