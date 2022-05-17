@@ -9,7 +9,19 @@ setopt    incappendhistory
 setopt autocd
 zstyle :compinstall filename '~/.zshrc'
 autoload -U colors && colors
+
 alias ls='ls --color' 
+# del, home and end
+bindkey "\e[3~" delete-char
+bindkey "\e[H"  beginning-of-line
+bindkey "\e[F"  end-of-line
+# ctrl-left and ctrl-right
+bindkey "\e[1;5D" backward-word
+bindkey "\e[1;5C" forward-word
+# ctrl-bs and ctrl-del
+bindkey "\e[3;5~" kill-word
+bindkey "\C-_"    backward-kill-word
+
 #----------------------------script for current location------------------------------
 function git_branch_name()
 {
