@@ -49,4 +49,3 @@ compinit
 #plugins
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-autosuggestions-master/zsh-autosuggestions.zsh
-

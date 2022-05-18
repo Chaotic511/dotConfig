@@ -1,0 +1,25 @@
+[colors]
+background = #030500
+background-alt = #8A9EA0
+foreground = #FEFEF0
+
+icons = #A1D2D0			
+secondary = #8A9EA0
+alert = #FAE3B0				
+shutdown = #FF0000
+reboot = #FFCC00
+close = #00B159
+separator = #99aab5
+player = #ffffff
+
+workspace-background = #4E4F50
+workspace-foreground = #A1D2D0
+workspace-underline = #A1D2D0	
+workspace-empty-foreground = #FEFEF0
+
+cyan = #07DAC0
+pink = #CE2380
+black = #030500
+cream = #FEFEF0
+babyblue = #A1D2D0
+coolgray = #4E4F50

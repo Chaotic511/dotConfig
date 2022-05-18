@@ -118,7 +118,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>3</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>1</name>
@@ -180,10 +180,8 @@
       <action name="Execute">
         <command>mons -e left</command>
       </action>
-    </keybind>
-    <keybind key="A-F12">
       <action name="Execute">
-        <command>~/.fehbg</command>
+        <command>killall -q opensnap</command>
       </action>
     </keybind>
     <keybind key="Print">
@@ -199,6 +197,9 @@
     <keybind key="C-A-p">
       <action name="Execute">
         <command>mons -o</command>
+      </action>
+      <action name="Execute">
+        <command>killall -q opensnap</command>
       </action>
     </keybind>
     <keybind key="W-s">
@@ -246,6 +247,12 @@
     </keybind>
     <keybind key="A-F11">
       <action name="Reconfigure"/>
+      <action name="Execute">
+        <command>~/.fehbg</command>
+      </action>
+      <action name="Execute">
+        <command>opensnap -c /etc/opensnap -d</command>
+      </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">

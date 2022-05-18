@@ -6,6 +6,7 @@ polybar MyBar &
 opensnap -c /etc/opensnap -d &
 /usr/bin/dunst &
 clipster -d &
+udiskie &
 ~/.config/polybar/scripts/hidepolybar.sh &
 ~/.fehbg &
 ~/Scripts/fancurve1.sh &
