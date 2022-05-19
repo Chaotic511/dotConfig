@@ -8,7 +8,7 @@ opensnap -c /etc/opensnap -d &
 clipster -d &
 udiskie &
 ~/.config/polybar/scripts/hidepolybar.sh &
-~/.fehbg &
+~/.fehbg
 ~/Scripts/fancurve1.sh &
 xcape -e 'Super_L=Alt_L|Super_L|D' &
 xinput --set-prop "Glorious Model D Wireless" "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2

@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>15</strength>
@@ -181,7 +180,7 @@
         <command>mons -e left</command>
       </action>
       <action name="Execute">
-        <command>killall -q opensnap</command>
+        <command>~/.config/openbox/scripts/refresh.sh</command>
       </action>
     </keybind>
     <keybind key="Print">
@@ -199,7 +198,7 @@
         <command>mons -o</command>
       </action>
       <action name="Execute">
-        <command>killall -q opensnap</command>
+        <command>~/.config/openbox/scripts/refresh.sh</command>
       </action>
     </keybind>
     <keybind key="W-s">
@@ -251,7 +250,7 @@
         <command>~/.fehbg</command>
       </action>
       <action name="Execute">
-        <command>opensnap -c /etc/opensnap -d</command>
+        <command>~/.config/openbox/scripts/restartpoly.sh</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">

@@ -15,7 +15,7 @@
 
     openbox theme in themes&icons folder
     adapta-gtk-theme
-    papirus-icon-theme
+    numix-icon-theme-git
 
 #openbox
 

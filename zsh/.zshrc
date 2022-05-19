@@ -10,7 +10,7 @@ setopt autocd
 zstyle :compinstall filename '~/.zshrc'
 autoload -U colors && colors
 
-alias ls='ls --color' 
+alias ls='ls -a -X -l -h --color' 
 # del, home and end
 bindkey "\e[3~" delete-char
 bindkey "\e[H"  beginning-of-line
