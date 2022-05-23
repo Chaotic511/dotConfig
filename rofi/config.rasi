@@ -1,11 +1,11 @@
 configuration {
 	modi: "drun";
 	font: "Noto Sans Display 12";
-	display-drun: "Apps";
-	drun-display-format: "{icon} {name}";
+	display-drun: "Search";
+	drun-display-format: "{icon}  {name}";
 	display-window:"Windows";
 	show-icons: true;
-	icon-theme: "Papirus";
+	yoffset: -450;
 
   timeout {
       action: "kb-cancel";
@@ -34,7 +34,7 @@ configuration {
 }
 
 window {
-  width: 15%;
+  width: 12%;
 }
 
 element {
