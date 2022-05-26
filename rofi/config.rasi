@@ -1,6 +1,6 @@
 configuration {
 	modi: "drun";
-	font: "Noto Sans Display 12";
+	font: "Noto Sans Display Regular 12";
 	display-drun: "Search";
 	drun-display-format: "{icon}  {name}";
 	display-window:"Windows";

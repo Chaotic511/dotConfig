@@ -1,7 +1,7 @@
 mons --primary DP-0
 mons -o
-picom -b --config ~/.config/picom/picom.conf &
 polybar MyBar &
+picom -b --config ~/.config/picom/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 opensnap -c /etc/opensnap -d &
 /usr/bin/dunst &

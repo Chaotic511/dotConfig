@@ -3,7 +3,7 @@
 #
 # Inspired by and made for horst3180's Arc GTK theme
 # https://github.com/horst3180/Arc-theme
-#further edited by github/chaotic511
+# further edited by github/chaotic511
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,18 +25,18 @@ window.client.padding.width: 0
 window.client.padding.height: 0
 window.handle.width: 0
 
-padding.width: 2
-padding.height: 2
+padding.width: 0
+padding.height: 0
 
-window.active.border.color: #2d3036
-window.inactive.border.color: #2d3036
-window.active.title.separator.color: #2f343f
-window.inactive.title.separator.color: #2f343f
+window.active.border.color: #CEF5F5
+window.inactive.border.color: #CEF5F5
+window.active.title.separator.color: #CEF5F5
+window.inactive.title.separator.color: #CEF5F5
 window.active.client.color: #2d3036
 window.inactive.client.color: #2d3036
 
 window.active.label.text.color: #D3DAE3
-window.inactive.label.text.color: #7F8388
+window.inactive.label.text.color: #0c0c0c
 
 window.active.button.unpressed.image.color: #D3DAE3
 window.active.button.pressed.image.color: #5294E2
@@ -61,15 +61,15 @@ window.inactive.button.close.hover.image.color: #dd1308
 window.inactive.button.toggled.unpressed.image.color: #24a83a
 
 window.active.title.bg: flat solid
-window.active.title.bg.color: #ffffff
+window.active.title.bg.color: #CEF5F5
 window.active.label.bg: flat solid
-window.active.label.bg.color: #23272a2f343f
+window.active.label.bg.color: #CEF5F5
 #window.active.handle.bg: texture
 #window.active.grip.bg: texture
 window.inactive.title.bg: flat solid
-window.inactive.title.bg.color: #eeeeee
+window.inactive.title.bg.color: #CEF5F5
 window.inactive.label.bg: flat solid
-window.inactive.label.bg.color: #2f343f
+window.inactive.label.bg.color: #CEF5F5
 #window.inactive.handle.bg: texture
 #window.inactive.grip.bg: texture
 
@@ -97,38 +97,43 @@ window.label.text.justify: center
 menu.border.width: 10
 menu.overlap.x:    -15
 menu.overlap.y:    -15
+menu.separator.padding.height: 5
+menu.item.separator.padding.height: 2
 
-menu.border.color:              #ffffff
-menu.separator.color:          #ffffff
+menu.border.color:              #CEF5F5
+menu.separator.color:          #CEF5F5
 
 menu.title.bg:                  flat solid
-menu.title.bg.color:            #ffffff
-menu.title.text.color:          #BD93F9
+menu.title.bg.color:            #CEF5F5
+menu.title.text.color:          #0c0c0c
 menu.title.text.justify:        Center
 
 menu.items.bg:                  flat solid
-menu.items.bg.color:            #ffffff
+menu.items.bg.color:            #CEF5F5
 
-menu.items.text.color:          #23272a
-menu.items.disabled.text.color: #23272a
+menu.items.text.color:          #0c0c0c
+menu.items.disabled.text.color: #0c0c0c
 
 menu.items.active.bg:           flat solid
-menu.items.active.bg.color:     #eeeeee
+menu.items.active.bg.color:     #2c2f33
 menu.items.active.text.color:   #00BCD4
 
 ### OSD
 osd.border.width: 0
 
-osd.border.color: #2d3036
+osd.border.color: #CEF5F5
 
-osd.label.text.color: #D3DAE3
+osd.label.text.color: #0c0c0c
 
 osd.bg: flat solid
-osd.bg.color: #2f343f
+osd.bg.color: #CEF5F5
+
 osd.label.bg: flat solid
-osd.label.bg.color: #2f343f
+osd.label.bg.color: #CEF5F5
+
 osd.hilight.bg: flat solid
-osd.hilight.bg.color: #5294E2
+osd.hilight.bg.color: #CEF5F5
+
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #000000
 

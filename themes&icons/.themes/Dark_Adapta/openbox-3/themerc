@@ -3,7 +3,7 @@
 #
 # Inspired by and made for horst3180's Arc GTK theme
 # https://github.com/horst3180/Arc-theme
-#further edited by github/chaotic511
+# further edited by github/chaotic511
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,13 +25,13 @@ window.client.padding.width: 0
 window.client.padding.height: 0
 window.handle.width: 0
 
-padding.width: 2
-padding.height: 2
+padding.width: 0
+padding.height: 0
 
-window.active.border.color: #2d3036
-window.inactive.border.color: #2d3036
-window.active.title.separator.color: #2f343f
-window.inactive.title.separator.color: #2f343f
+window.active.border.color: #263238
+window.inactive.border.color: #263238
+window.active.title.separator.color: #263238
+window.inactive.title.separator.color: #263238
 window.active.client.color: #2d3036
 window.inactive.client.color: #2d3036
 
@@ -61,15 +61,15 @@ window.inactive.button.close.hover.image.color: #dd1308
 window.inactive.button.toggled.unpressed.image.color: #24a83a
 
 window.active.title.bg: flat solid
-window.active.title.bg.color: #030500
+window.active.title.bg.color: #263238
 window.active.label.bg: flat solid
-window.active.label.bg.color: #23272a2f343f
+window.active.label.bg.color: #23272a
 #window.active.handle.bg: texture
 #window.active.grip.bg: texture
 window.inactive.title.bg: flat solid
-window.inactive.title.bg.color: #2c2f33
+window.inactive.title.bg.color: #263238
 window.inactive.label.bg: flat solid
-window.inactive.label.bg.color: #2f343f
+window.inactive.label.bg.color: #23272a
 #window.inactive.handle.bg: texture
 #window.inactive.grip.bg: texture
 
@@ -105,7 +105,7 @@ menu.separator.color:          #23272a
 
 menu.title.bg:                  flat solid
 menu.title.bg.color:            #23272a
-menu.title.text.color:          #BD93F9
+menu.title.text.color:          #A1D2D0
 menu.title.text.justify:        Center
 
 menu.items.bg:                  flat solid
@@ -126,11 +126,14 @@ osd.border.color: #2d3036
 osd.label.text.color: #D3DAE3
 
 osd.bg: flat solid
-osd.bg.color: #2f343f
+osd.bg.color: #23272a
+
 osd.label.bg: flat solid
-osd.label.bg.color: #2f343f
+osd.label.bg.color: #23272a
+
 osd.hilight.bg: flat solid
 osd.hilight.bg.color: #5294E2
+
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #000000
 
