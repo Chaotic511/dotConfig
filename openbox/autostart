@@ -1,14 +1,20 @@
 mons --primary DP-0
 mons -o
-polybar MyBar &
-picom -b --config ~/.config/picom/picom.conf &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-opensnap -c /etc/opensnap -d &
+xrandr --output DP-0 --mode 2560x1440 --rate 120
+
 /usr/bin/dunst &
 clipster -d &
 udiskie &
-~/.config/polybar/scripts/hidepolybar.sh &
-~/.fehbg
-~/Scripts/fancurve1.sh &
+~/Scripts/fancurve.sh &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+polybar MyBar &
+plank &
+picom -b --config ~/.config/picom/picom.conf &
+opensnap -c /etc/opensnap -d &
+nitrogen --restore
+
 xcape -e 'Super_L=Alt_L|Super_L|D' &
 xinput --set-prop "Glorious Model D Wireless" "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2
+~/.config/polybar/scripts/hidepolybar.sh &
+nvidia-settings --load-config-only --config="$XDG_CONFIG_HOME"/nvidia/settings 

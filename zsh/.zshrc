@@ -1,12 +1,13 @@
 # History Configuration
 HISTSIZE=5000
-HISTFILE=~/.zsh_history
 SAVEHIST=5000
 setopt    appendhistory
 setopt    sharehistory
 setopt    incappendhistory
 
 setopt autocd
+HISTFILE="$XDG_STATE_HOME"/zsh/history
+zstyle ':completion:*' cache-path $XDG_CACHE_HOME/zsh/zcompcache
 zstyle :compinstall filename '~/.zshrc'
 autoload -U colors && colors
 
@@ -43,7 +44,7 @@ fi
 #--------------------------------------------------------------------------------------
 
 autoload -Uz compinit
-compinit
+compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
 # End of lines added by compinstall
 
 #plugins

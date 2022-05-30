@@ -3,6 +3,7 @@
 #zsh
 
     in /home make a .zshrc file and add line 'source ~/.config/zsh/.zshrc'
+	'mkdir ~/.cache/zsh'
 
 #fonts
 
@@ -30,3 +31,4 @@
     xorg-xwininfo (for autohiding polybar app tray)
     opensnap (window snapping)
 	openbox-menu, lxmenu-data (openboxdynamic menu)
+	plank
