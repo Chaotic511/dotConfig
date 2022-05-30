@@ -32,3 +32,4 @@
     opensnap (window snapping)
 	openbox-menu, lxmenu-data (openboxdynamic menu)
 	plank
+	a
