@@ -329,6 +329,9 @@
       <action name="MoveToEdgeNorth"/>
     </keybind>
     <keybind key="W-A-Up">
+      <action name="Execute">
+        <command>polybar-msg cmd hide</command>
+      </action>
       <action name="Maximize"/>
     </keybind>
     <keybind key="W-b">

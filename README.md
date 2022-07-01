@@ -16,7 +16,7 @@
 
     openbox theme in themes&icons folder
     adapta-gtk-theme
-    numix-icon-theme-git
+    numix-circle-icon-theme-git
 
 #openbox
 
@@ -32,4 +32,3 @@
     opensnap (window snapping)
 	openbox-menu, lxmenu-data (openboxdynamic menu)
 	plank
-	a
